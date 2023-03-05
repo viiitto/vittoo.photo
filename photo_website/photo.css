@@ -1,0 +1,82 @@
+html * {
+}
+#background {
+	background: url('images/asia/IMG_4434.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+}
+header{
+	width: 100%;
+	background-color: black;
+	opacity: 0.5;
+	height: 200px;
+}
+.fa {
+	font-size: 30px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 80px;
+    text-decoration: none;
+}
+.fa:hover {
+  	color: #0277bd;
+  	text-decoration: none;
+}
+.fa-instagram {
+  	color: white;
+}
+h1 {
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	padding-top: 60px;
+	margin-right: 80px;
+}
+.subtitle {
+	text-align: center;
+}
+.about {
+	font-size: 20px;
+	color: white;
+	margin: 30px;
+}
+.portfolio {
+	font-size: 20px;
+	color: white;
+	margin: 30px;
+}
+.about:hover {
+	color: white;
+}
+.portfolio:hover {
+	color: white;
+}
+.continent {
+	width: 50%;
+	float: left;
+	font-size: 30px;
+	margin-top: 65px;
+	margin-bottom: 65px;
+	padding: 65px;
+	text-align: center;
+	font-weight: bold;
+}
+a {
+	color: black;
+}
+a:hover {
+	color: black;
+}
+footer {
+	text-align: right;
+	margin-right: 10%;
+	margin-top: 33%;
+	color: black;
+	font-weight: bold;
+}
+.mail {
+	text-decoration: underline;
+}

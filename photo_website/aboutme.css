@@ -1,0 +1,94 @@
+html * {
+}
+#background {
+	background: url('images/asia/IMG_4434.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+}
+header{
+	width: 100%;
+	background-color: black;
+	opacity: 0.5;
+	height: 100px;
+}
+.fa {
+	font-size: 30px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 35px;
+    text-decoration: none;
+}
+.fa:hover {
+  	color: #0277bd;
+  	text-decoration: none;
+}
+.fa-instagram {
+  	color: white;
+}
+h1 {
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	padding-top: 20px;
+	margin-right: 80px;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+.subtitle {
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+.about {
+	font-size: 10px;
+	color: white;
+	margin: 30px;
+}
+.portfolio {
+	font-size: 10px;
+	color: white;
+	margin: 30px;
+}
+.about:hover {
+	color: white;
+	text-decoration: underline;
+}
+.portfolio:hover {
+	color: white;
+	text-decoration: underline;
+}
+.aboutmeBOX {
+	text-align: center;
+	height: 350px;
+	width: 700px;
+	background-color: #eaf2f8;
+	margin: 50px 50px 50px 370px;
+	float: left;
+	padding: 70px;
+	line-height: 35px;
+}
+footer {
+	text-align: right; 
+	margin-right: 10%;
+	margin-top: 40%;
+	color: black;
+	font-weight: bold;
+	font-size: 13px;
+}
+.mail {
+	text-decoration: underline;
+	color: black;
+}
+.mail:hover {
+	color: black;
+	text-decoration: underline;
+}
