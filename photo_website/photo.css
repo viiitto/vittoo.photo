@@ -73,10 +73,42 @@ a:hover {
 footer {
 	text-align: right;
 	margin-right: 10%;
-	margin-top: 33%;
+	margin-top: 370px;
 	color: black;
 	font-weight: bold;
 }
 .mail {
 	text-decoration: underline;
+}
+@media (max-width: 768px) {
+	h1 {
+		font-size: 30px;
+	}
+	.fa {
+		margin-top: 30px;
+	}
+	.about {
+		margin: 20px;
+		font-size: 15px;
+	}
+	.portfolio {
+		margin: 20px;
+		font-size: 15px;
+		margin-right: 15%;
+	}
+	.continent {
+		float: clear;
+		width: 100%;
+		font-size: 25px;
+		font-weight: none;
+		padding: 20px;
+		margin: 10px;
+	}
+	footer {
+		text-align: center;
+		font-weight: none;
+		font-size: 13px;
+		width: 100%;
+		margin-top: 350px;
+	}
 }
