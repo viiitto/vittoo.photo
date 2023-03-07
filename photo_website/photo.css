@@ -73,13 +73,14 @@ a:hover {
 footer {
 	text-align: right;
 	margin-right: 10%;
-	margin-top: 370px;
+	margin-top: 500px;
 	color: black;
 	font-weight: bold;
 }
 .mail {
 	text-decoration: underline;
 }
+@media (min-height: )
 @media (max-width: 768px) {
 	h1 {
 		font-size: 30px;
