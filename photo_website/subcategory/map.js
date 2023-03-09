@@ -10,7 +10,7 @@ function initMap() {
   const location9 = { lat: 1.355741, lng: 103.819857};
   const location10 = { lat: 1.290291, lng: 103.851378};
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 2,
+    zoom: 3,
     center: location8,
   });
   const marker1 = new google.maps.Marker({
