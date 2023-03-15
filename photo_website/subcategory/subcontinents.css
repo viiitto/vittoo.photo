@@ -91,7 +91,6 @@ a:hover {
 	background-color: white;
 }
 .allimages {
-	text-align: center;
 	margin: 0 1% 0 1%;
 }
 @media (max-width: 425px) and (max-height: 652px) {
@@ -122,6 +121,7 @@ a:hover {
 	.subtitleBOX {
 		color: black;
 		opacity: 0.5;
+		font-size: 1px;
 	}
 	@media (min-width: 376px) {
 		h1 {

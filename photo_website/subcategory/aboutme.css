@@ -131,9 +131,8 @@ footer {
 		}
 	}
 }
-@media (max-height: 780px) {
+@media (max-height: 700px) {
 	footer {
-		margin-top: 36%;
+		margin-top: 480px;
 	}
-}
 }

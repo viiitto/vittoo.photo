@@ -75,7 +75,7 @@ a:hover {
 	padding-left: 20%;
 }
 .subcategoryBOX {
-	padding: 0px 30px 0px 30px;
+	padding: 0% 3% 0% 3%;
 	text-align: center;
 	font-size: 20px;
 	float: left;
@@ -111,7 +111,23 @@ a:hover {
 		padding-left: 0px;
 	}
 	.subcategoryBOX {
-		padding: 15px 15px 15px 90px;
+		padding: 5% 25% 5% 5%;
 		float: none;
+	}
+}
+@media (min-width: 768px) and (max-width:968px) {
+	.boxCONTINENTS {
+		padding-right: 10%;
+		padding-left: 15%;
+	}
+	.boxSTYLE {
+		padding-right: 0%;
+		padding-left: 0%;
+	}
+}
+@media (min-width: 768px) and (max-width:968px) {
+	.boxSTYLE {
+		padding-right: 10%;
+		padding-left: 0%;
 	}
 }
