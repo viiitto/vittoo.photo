@@ -1,87 +1,85 @@
-html * {
-}
 #background {
-	background: url('../images/asia/IMG_4434.jpg');
+	background: url('../images/asia/DSC_0163.jpg');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: rgba(255,255,255,0.6);
+	background-color: rgba(255,255,255,0.7);
     background-blend-mode: lighten;
 }
 header{
 	width: 100%;
-	background-color: black;
-	opacity: 0.5;
-	height: 100px;
 }
 .fa {
-	font-size: 30px;
+	font-size: 40px;
 	float: left;
 	margin-left: 50px;
-	margin-top: 35px;
+	margin-top: 50px;
     text-decoration: none;
 }
 .fa:hover {
-  	color: #0277bd;
+  	color: #000033;
+  	opacity: 0.7;
   	text-decoration: none;
 }
 .fa-instagram {
-  	color: white;
+  	color: #000033;
+  	opacity: 0.7;
+
 }
 h1 {
-	text-align: center;
 	font-size: 30px;
-	color: white;
-	padding-top: 20px;
-	margin-right: 80px;
-}
-a {
-	color: white;
-	text-decoration: none;
-}
-a:hover {
-	color: white;
-	text-decoration: none;
+	opacity: 0.7;
+	color: #000033;
+	margin: 50px 80px 50px 50px;
+	float: left;
+	font-weight: bold;
 }
 .subtitle {
-	text-align: center;
-	float: left;
-	width: 100%;
+	text-align: right;
+	padding-top: 55px;
 }
 .about {
-	font-size: 10px;
-	color: white;
+	font-size: 15px;
+	color: #000033;
 	margin: 30px;
 }
 .portfolio {
-	font-size: 10px;
-	color: white;
+	font-size: 15px;
+	color: #000033;
+	margin: 30px;
+}
+.contact {
+	font-size: 15px;
+	color: #000033;
 	margin: 30px;
 }
 .about:hover {
-	color: white;
-	text-decoration: underline;
+	color: #000033;
+	text-decoration: none;
 }
 .portfolio:hover {
-	color: white;
-	text-decoration: underline;
+	color: #000033;
+	text-decoration: none;
+}
+.contact:hover {
+	color: #000033;
+	text-decoration: none;
+}
+a {
+	text-decoration: none;
+	color: #000033;
+}
+a:hover {
+	text-decoration: none;
+	color: #000033;
 }
 .aboutmeBOX {
 	text-align: center;
 	width: 50%;
-	background-color: #eaf2f8;
 	margin: 3% 50px 50px 25%;
 	float: left;
-	padding: 5%;
+	padding: 3%;
 	line-height: 35px;
-}
-footer {
-	text-align: right; 
-	margin-right: 10%;
-	margin-top: 41%;
-	color: black;
-	font-weight: bold;
-	font-size: 13px;
 }
 .mail {
 	text-decoration: underline;
@@ -90,49 +88,4 @@ footer {
 .mail:hover {
 	color: black;
 	text-decoration: underline;
-}
-@media (max-width: 425px) and (max-height: 652px) {
-	h1 {
-		font-size: 18px;
-		margin-left: 25%;
-	}
-	header {
-		height: 100px;
-	}
-	.fa {
-		margin-top: 20px;
-		margin-left: 20px;
-	}
-	.subtitle {
-		margin-left: 7%;
-	}
-	.about {
-		margin: 20px;
-		font-size: 10px;
-	}
-	.portfolio {
-		margin: 20px;
-		font-size: 10px;
-		margin-right: 15%;
-	}
-	.aboutmeBOX {
-		width: 80%;
-		margin-left: 10%;
-		margin-top: 7%;
-	}
-	footer {
-		margin: 30px;
-		text-align: center;
-	}
-	@media (min-width: 376px) {
-		h1 {
-			font-size: 25px;
-			margin-left: 15%;
-		}
-	}
-}
-@media (max-height: 700px) {
-	footer {
-		margin-top: 480px;
-	}
 }

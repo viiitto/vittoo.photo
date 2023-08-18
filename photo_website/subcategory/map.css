@@ -12,7 +12,6 @@ header{
     text-decoration: none;
 }
 .fa:hover {
-  	color: #0277bd;
   	text-decoration: none;
 }
 .fa-instagram {
@@ -24,6 +23,7 @@ h1 {
 	color: white;
 	padding-top: 20px;
 	margin-right: 80px;
+	font-weight: bold;
 }
 a {
 	color: white;
@@ -39,22 +39,28 @@ a:hover {
 	width: 100%;
 }
 .about {
-	font-size: 10px;
+	font-size: 15px;
 	color: white;
 	margin: 30px;
 }
 .portfolio {
-	font-size: 10px;
+	font-size: 15px;
+	color: white;
+	margin: 30px;
+}
+.contact {
+	font-size: 15px;
 	color: white;
 	margin: 30px;
 }
 .about:hover {
 	color: white;
-	text-decoration: underline;
 }
 .portfolio:hover {
 	color: white;
-	text-decoration: underline;
+}
+.contact {
+	color: white;
 }
 #map {
 	width: 100%;
@@ -83,6 +89,10 @@ a:hover {
 		margin: 20px;
 		font-size: 10px;
 		margin-right: 15%;
+	}
+	.contact {
+		margin: 20px;
+		font-size: 10px;
 	}
 	#map {
 		height: 452px;
