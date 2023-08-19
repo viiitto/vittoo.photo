@@ -78,7 +78,13 @@ a:hover {
 	font-size: 15px;
 	margin-bottom: 20px;
 }
-
+.title {
+	color: #9e9e9e;
+	text-align: center;
+    line-height: 1.5;
+    flex: 1;
+    font-size: 40px;
+}
 footer {
 	height: 70px;
 }
