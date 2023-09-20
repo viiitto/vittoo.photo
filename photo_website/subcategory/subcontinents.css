@@ -88,3 +88,76 @@ a:hover {
 footer {
 	height: 70px;
 }
+@media (min-width: 769px) and (max-width: 1024px) {
+	.box {
+		font-size: 10px;
+	}
+	.subtitleBOX {
+		padding: 15px;
+	}
+	.title {
+		font-size: 20px;
+	}
+	h1 {
+		font-size: 13px;
+	}
+}
+@media (min-width: 716px) and (max-width: 768px) {
+	.box {
+		font-size: 10px;
+		padding-top: 20px;
+	}
+	.subtitleBOX {
+		padding: 15px;
+	}
+	.title {
+		font-size: 15px;
+	}
+	.centered {
+		font-size: 15px;
+	}
+	.date {
+		font-size: 10px;
+	}
+	h1 {
+		font-size: 13px;
+		padding: 20px;
+	}
+	.fa {
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+}
+@media (max-width: 715px) {
+	.subtitleBOX {
+		display: none;
+	}
+	.title {
+		font-size: 15px;
+	}
+	.centered {
+		font-size: 15px;
+	}
+	.date {
+		font-size: 10px;
+	}
+	h1 {
+		font-size: 13px;
+		padding: 20px;
+	}
+	.fa {
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	.description {
+		display: none;
+	}
+}
+@media (max-width: 580px) {
+	.title {
+		display: none;
+	}
+	.centered {
+		font-size: 9px;
+	}
+}

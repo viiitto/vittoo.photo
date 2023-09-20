@@ -49,22 +49,12 @@ h1 {
 	color: #000033;
 	margin: 30px;
 }
-.contact {
-	font-size: 15px;
-	color: #000033;
-	margin: 30px;
-}
 .about:hover {
 	color: #000033;
 	opacity: 0.7;
 	text-decoration: none;
 }
 .portfolio:hover {
-	color: #000033;
-	opacity: 0.7;
-	text-decoration: none;
-}
-.contact:hover {
 	color: #000033;
 	opacity: 0.7;
 	text-decoration: none;
@@ -95,7 +85,7 @@ a:hover {
     clear: both;
     margin-top: 40px; 
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 .addition img {
     max-width: 100%;
@@ -108,4 +98,149 @@ a:hover {
 footer {
 	height: 100px;
 	background-color: black;
+	position: relative;
+}
+.mail {
+	color: white;
+	width: 100%;
+	top: 50%;
+	position: absolute;
+	text-align: center;
+}
+.mail:hover {
+	color: white;
+	text-decoration: underline;
+}
+@media (min-width: 1000px) and (max-width: 1299px) {
+	.subcategoryBOX {
+		margin: 40px;
+	}
+}
+@media (min-width: 769px) and (max-width: 999px) {
+	.subcategoryBOX {
+		margin: 35px;
+		font-size: 13px;
+	}
+}
+@media (min-width: 700px) and (max-width: 768px) {
+	.subcategoryBOX {
+		font-size: 10px;
+		margin: 35px;
+	}
+	.about {
+		font-size: 10px;
+		margin: 20px;
+	}
+	.portfolio {
+		font-size: 10px;
+		margin: 20px;
+	}
+}
+@media (min-width: 511px) and (max-width: 699px) {
+	.subcategoryBOX {
+		font-size: 10px;
+		margin: 25px;
+	}
+	.about {
+		font-size: 10px;
+		margin: 10px;
+	}
+	.portfolio {
+		font-size: 10px;
+		margin: 10px;
+	}
+	h1 {
+		font-size: 20px;
+	}
+	.fa {
+		font-size: 30px;
+		margin-top: 45px;
+	}
+	footer {
+		height: 75px;
+	}
+	.mail {
+		font-size: 10px;
+	}
+}
+@media (min-width: 441px) and (max-width: 510px) {
+	header {
+		height: 100px;
+	}
+	.subcategoryBOX {
+		font-size: 10px;
+		margin: 0px;
+		float: none;
+		width: 100%;
+		line-height: 4;
+	}
+	.subtitle {
+		padding-top: 30px;
+	}
+	.about {
+		font-size: 10px;
+		margin: 10px;
+	}
+	.portfolio {
+		font-size: 10px;
+		margin: 10px;
+	}
+	h1 {
+		font-size: 20px;
+		margin: 30px;
+	}
+	.fa {
+		font-size: 30px;
+		margin-top: 30px;
+	}
+	footer {
+		height: 75px;
+	}
+	.mail {
+		font-size: 10px;
+	}
+	.addition {
+		grid-template-columns: repeat(2, 1fr)
+	}
+}
+@media (max-width: 440px) {
+	header {
+		height: 100px;
+	}
+	.subcategoryBOX {
+		font-size: 10px;
+		margin: 0px;
+		float: none;
+		width: 100%;
+		line-height: 4;
+	}
+	.subtitle {
+		padding-top: 30px;
+	}
+	.about {
+		font-size: 8px;
+		margin: 8px;
+	}
+	.portfolio {
+		font-size: 8px;
+		margin: 8px;
+	}
+	h1 {
+		font-size: 15px;
+		margin: 30px;
+	}
+	.fa {
+		font-size: 20px;
+		margin-top: 30px;
+		margin-left: 20px;
+	}
+	footer {
+		height: 75px;
+	}
+	.mail {
+		font-size: 10px;
+	}
+	.addition {
+		grid-template-columns: repeat(2, 1fr)
+	}
 }

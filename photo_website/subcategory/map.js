@@ -19,6 +19,10 @@ function initMap() {
   const location18 = { lat: 10.6314754, lng: 104.132637};
   const location19 = { lat: 19.8887438, lng: 102.135898}; 
   const location20 = { lat: 13.7524938, lng: 100.4935089};
+  const location21 = { lat: 52.945293, lng: -4.567213};
+  const location22 = { lat: 52.893742, lng: -4.414753};
+  const location23 = { lat: 53.221677, lng: -4.204745};
+
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 3,
     center: location8,
@@ -101,6 +105,18 @@ function initMap() {
   });
   const marker20 = new google.maps.Marker({
     position: location20,
+    map: map,
+  });
+  const marker21 = new google.maps.Marker({
+    position: location21,
+    map: map,
+  });
+  const marker22 = new google.maps.Marker({
+    position: location22,
+    map: map,
+  });
+  const marker23 = new google.maps.Marker({
+    position: location23,
     map: map,
   });
 }

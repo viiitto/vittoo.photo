@@ -72,3 +72,25 @@ a:hover {
 	width: 100%;
 	height: 689px;
 }
+@media (max-width: 768px) {
+	.subtitle {
+		padding-top: 17px;
+	}
+	.about {
+		font-size: 10px;
+		margin: 10px;
+	}
+	.portfolio {
+		font-size: 10px;
+		margin: 10px;
+	}
+	h1 {
+		font-size: 17px;
+		margin: 20px;
+	}
+	.fa {
+		font-size: 30px;
+		margin-top: 17px;
+		margin-left: 20px;
+	}
+}
