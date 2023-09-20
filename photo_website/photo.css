@@ -164,6 +164,14 @@ footer {
 	}
 }
 @media (min-width: 441px) and (max-width: 510px) {
+	#background {
+		background: url('images/asia/050A0836-E704-4B82-9528-E165635711A5_1_100_o-2.jpg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-color: rgba(255,255,255,0.8);
+	    background-blend-mode: lighten;
+	}
 	header {
 		height: 100px;
 	}
@@ -204,6 +212,14 @@ footer {
 	}
 }
 @media (max-width: 440px) {
+	#background {
+		background: url('images/asia/050A0836-E704-4B82-9528-E165635711A5_1_100_o-2.jpg');
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-color: rgba(255,255,255,0.8);
+	    background-blend-mode: lighten;
+	}
 	header {
 		height: 100px;
 	}
