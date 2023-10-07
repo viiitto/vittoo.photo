@@ -22,6 +22,20 @@ function initMap() {
   const location21 = { lat: 52.945293, lng: -4.567213};
   const location22 = { lat: 52.893742, lng: -4.414753};
   const location23 = { lat: 53.221677, lng: -4.204745};
+  const location24 = { lat: 51.443570, lng: -0.275319};
+  const location25 = { lat: 51.509822, lng: -0.098601};
+  const location26 = { lat: 31.460530, lng: -9.728038};
+  const location27 = { lat: 13.203137, lng: -61.196997};
+  const location28 = { lat: 44.967706, lng: -123.705963};
+  const location29 = { lat: 37.777377, lng: -122.424643};
+  const location30 = { lat: 51.000599, lng: -0.949632};
+  const location31 = { lat: 31.096196, lng: -4.248000};
+  const location32 = { lat: 46.459478, lng: 9.799174};
+  const location33 = { lat: 41.171260, lng: -8.629987};
+  const location34 = { lat: 38.729284, lng: -9.135358};
+  const location35 = { lat: 36.576292, lng: 27.855744};
+  const location36 = { lat: 20.252127, lng: 105.968446};
+  const location37 = { lat: 36.403803, lng: 28.179750};
 
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 3,
@@ -117,6 +131,62 @@ function initMap() {
   });
   const marker23 = new google.maps.Marker({
     position: location23,
+    map: map,
+  });
+  const marker24 = new google.maps.Marker({
+    position: location24,
+    map: map,
+  });
+  const marker25 = new google.maps.Marker({
+    position: location25,
+    map: map,
+  });
+  const marker26 = new google.maps.Marker({
+    position: location26,
+    map: map,
+  });
+  const marker27 = new google.maps.Marker({
+    position: location27,
+    map: map,
+  });
+  const marker28 = new google.maps.Marker({
+    position: location28,
+    map: map,
+  });
+  const marker29 = new google.maps.Marker({
+    position: location29,
+    map: map,
+  });
+  const marker30 = new google.maps.Marker({
+    position: location30,
+    map: map,
+  });
+  const marker31 = new google.maps.Marker({
+    position: location31,
+    map: map,
+  });
+  const marker32 = new google.maps.Marker({
+    position: location32,
+    map: map,
+  });
+  const marker33 = new google.maps.Marker({
+    position: location33,
+    map: map,
+  });
+  const marker34 = new google.maps.Marker({
+    position: location34,
+    map: map,
+  });
+  const marker35 = new google.maps.Marker({
+    position: location35,
+    map: map,
+  });
+  const marker36 = new google.maps.Marker({
+    position: location36,
+    map: map,
+  });
+  const marker37 = new google.maps.Marker({
+    position: location37,
     map: map,
   });
 }

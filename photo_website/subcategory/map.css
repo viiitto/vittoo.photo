@@ -25,38 +25,29 @@ h1 {
 	font-size: 30px;
 	opacity: 0.7;
 	color: #000033;
-	margin: 50px 80px 50px 50px;
+	margin: 50px 30px 50px 50px;
 	float: left;
 	font-weight: bold;
+}
+h2 {
+	font-size: 18px;
+	opacity: 0.5;
+	color: black;
+	margin-top: 59px;
+	float: left;
+	font-style: italic;
+	color: #000033;
 }
 .subtitle {
 	text-align: right;
 	padding-top: 55px;
 }
-.about {
+.menu-items {
 	font-size: 15px;
 	color: #000033;
 	margin: 30px;
 }
-.portfolio {
-	font-size: 15px;
-	color: #000033;
-	margin: 30px;
-}
-.contact {
-	font-size: 15px;
-	color: #000033;
-	margin: 30px;
-}
-.about:hover {
-	color: #000033;
-	text-decoration: none;
-}
-.portfolio:hover {
-	color: #000033;
-	text-decoration: none;
-}
-.contact:hover {
+.menu-items:hover {
 	color: #000033;
 	text-decoration: none;
 }
