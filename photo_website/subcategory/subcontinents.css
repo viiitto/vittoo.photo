@@ -245,7 +245,7 @@ footer {
 	}
 }
 @media (max-width: 715px) {
-	.description {
+	.before {
 		display: none;
 	}
 }
@@ -273,5 +273,15 @@ footer {
 	}
 	.subtitle {
 		padding-top: 40px;
+	}
+	.image img {
+		max-width: 330%;
+	}
+	header {
+		height: 100px;
+	}
+	.dropdown-content {
+		font-size: 8px;
+		min-width: 80px;
 	}
 }
