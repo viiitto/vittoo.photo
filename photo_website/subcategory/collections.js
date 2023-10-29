@@ -16,9 +16,9 @@ var replace = [
 		'../images/asia/DSC_0163.jpg'
 		], 
 	//flora//
-	['../images/europe/_DSC0504.jpg',
-		'../images/europe/_DSC0514.jpg',
-		'../images/europe/_DSC0505.jpg'
+	['../images/europe/DSC0504.jpg',
+		'../images/europe/DSC0514.jpg',
+		'../images/europe/DSC0505.jpg'
 		], 
 	//street//
 	['../images/asia/ADCE01F0-46EB-4EF6-A80B-E6567DC4C4C2.jpg', 
