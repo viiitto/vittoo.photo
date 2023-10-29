@@ -9,7 +9,6 @@
     setInterval(changeImage, 5000);
 
     function changeImage(){
-    	console.log(currentImage)
         if (currentImage===images.length){
             currentImage = 0;
             const removeSlide = document.querySelector('img');
@@ -29,4 +28,3 @@
 
     }
 }());
-

@@ -1,38 +1,41 @@
 #background {
-	/*background: url('images/asia/DSC_0163.jpg');
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: rgba(255,255,255,0.7);*/
 	background-color: lightgray;
     background-blend-mode: lighten;
 }
 header{
 	width: 100%;
-	height: 150px;
-}
-.fa {
-	font-size: 40px;
-	float: left;
-	margin-left: 50px;
-	margin-top: 50px;
-    text-decoration: none;
+	height: 200px;
 }
 .fa:hover {
-  	color: #000033;
-  	opacity: 0.7;
-  	text-decoration: none;
+  color: #000033;
+  opacity: 0.7;
+  text-decoration: none;
 }
 .fa-instagram {
-  	color: #000033;
-  	opacity: 0.7;
-
+  color: #000033;
+  opacity: 0.7;
+  font-size: 40px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 70px;
+  text-decoration: none;
+}
+.fa-bars {
+	color: #000033;
+  opacity: 0.7;
+  font-size: 25px;
+  text-decoration: none;
+  margin-right: 70px;
+}
+#openCloseButton {
+	border: 0;
+	background-color: lightgray;
 }
 h1 {
 	font-size: 30px;
 	opacity: 0.7;
 	color: #000033;
-	margin: 50px 30px 0px 50px;
+	margin: 70px 30px 0px 50px;
 	float: left;
 	font-weight: bold;
 }
@@ -40,7 +43,7 @@ h2 {
 	font-size: 18px;
 	opacity: 0.5;
 	color: black;
-	margin-top: 59px;
+	margin-top: 79px;
 	float: left;
 	font-style: italic;
 	color: #000033;
@@ -85,8 +88,6 @@ h2 {
 	}
 }
 .subcategoryBOX {
-	width: 50%;
-	float: left;
 	font-size: 50px;
 	margin-top: 350px;
 	margin-bottom: 150px;
@@ -97,12 +98,50 @@ h2 {
 }
 a {
 	color: #000033;
-  	opacity: 0.7;
+  opacity: 0.7;
 }
 a:hover {
 	color: #000033;
-  	opacity: 0.7;
-  	text-decoration: none;
+  opacity: 0.7;
+	text-decoration: none;
+}
+.dropbtn {
+  border: none;
+  background-color: lightgray;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightgray;
+  min-width: 160px;
+  z-index: 1;
+  text-align: center;
+}
+
+.dropdown-content a {
+  opacity: 0.7;
+  color: #000033;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+	color: gray;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn a {
+	color: gray;
 }
 footer {
 	height: 300px;
@@ -121,153 +160,115 @@ footer {
 	color: white;
 	text-decoration: underline;
 }
+.sidenav {
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  right: 0;
+  background-color: #222222; 
+  overflow-x: hidden; 
+  padding-top: 15px; 
+  transition: 0.5s; 
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: lightgray;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #000033;
+}
+.sidenav .closebtn {
+  position: absolute;
+  font-size: 26px;
+}
+#main {
+  transition: margin-right .5s;
+}
 
-@media (min-width: 1000px) and (max-width: 1299px) {
-	.subcategoryBOX {
-		margin: 40px;
-	}
-}
-@media (min-width: 769px) and (max-width: 999px) {
-	.subcategoryBOX {
-		margin: 35px;
-		font-size: 13px;
-	}
-}
-@media (min-width: 700px) and (max-width: 768px) {
-	.subcategoryBOX {
-		font-size: 10px;
-		margin: 35px;
-	}
-	.about {
-		font-size: 10px;
-		margin: 20px;
-	}
-	.portfolio {
-		font-size: 10px;
-		margin: 20px;
-	}
-}
-@media (min-width: 511px) and (max-width: 699px) {
-	.subcategoryBOX {
-		font-size: 10px;
-		margin: 25px;
-	}
-	.about {
-		font-size: 10px;
-		margin: 10px;
-	}
-	.portfolio {
-		font-size: 10px;
-		margin: 10px;
-	}
-	h1 {
-		font-size: 20px;
-	}
-	.fa {
-		font-size: 30px;
-		margin-top: 45px;
-	}
-	footer {
-		height: 75px;
-	}
-	.mail {
-		font-size: 10px;
-	}
-}
-@media (min-width: 441px) and (max-width: 510px) {
-	#background {
-		background: url('images/asia/050A0836-E704-4B82-9528-E165635711A5_1_100_o-2.jpg');
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-color: rgba(255,255,255,0.8);
-	    background-blend-mode: lighten;
-	}
+@media (max-width: 1024px) {
 	header {
 		height: 100px;
 	}
-	.subcategoryBOX {
-		font-size: 10px;
-		margin: 0px;
-		float: none;
-		width: 100%;
-		line-height: 4;
-	}
-	.subtitle {
-		padding-top: 30px;
-	}
-	.about {
-		font-size: 10px;
-		margin: 10px;
-	}
-	.portfolio {
-		font-size: 10px;
-		margin: 10px;
-	}
-	h1 {
-		font-size: 20px;
-		margin: 30px;
-	}
-	.fa {
+	.fa-bars{
 		font-size: 30px;
-		margin-top: 30px;
-	}
-	footer {
-		height: 75px;
-	}
-	.mail {
-		font-size: 10px;
-	}
-	.addition {
-		grid-template-columns: repeat(2, 1fr)
-	}
-}
-@media (max-width: 440px) {
-	#background {
-		background: url('images/asia/050A0836-E704-4B82-9528-E165635711A5_1_100_o-2.jpg');
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-color: rgba(255,255,255,0.8);
-	    background-blend-mode: lighten;
-	}
-	header {
-		height: 100px;
 	}
 	.subcategoryBOX {
-		font-size: 10px;
-		margin: 0px;
-		float: none;
-		width: 100%;
-		line-height: 4;
+		font-size: 35px;
 	}
 	.subtitle {
 		padding-top: 30px;
-	}
-	.about {
-		font-size: 8px;
-		margin: 8px;
-	}
-	.portfolio {
-		font-size: 8px;
-		margin: 8px;
 	}
 	h1 {
 		font-size: 15px;
-		margin: 30px;
+		margin-top: 45px;
+		margin-left: 40px;
+	}
+	h2 {
+		font-size: 13px;
+		margin-top: 47px;
 	}
 	.fa {
-		font-size: 20px;
-		margin-top: 30px;
-		margin-left: 20px;
+		font-size: 30px;
+		margin-top: 40px;
+		margin-left: 30px;
 	}
-	footer {
-		height: 75px;
+	.menu-items {
+		font-size: 15px;
+		margin: 20px;
 	}
 	.mail {
 		font-size: 10px;
 	}
-	.addition {
-		grid-template-columns: repeat(2, 1fr)
+	.menu-items {
+		font-size: 10px;
+		margin-top: 20px;
+	}
+
+	/*dropdown classes*/
+}
+
+@media (max-width: 768px) {
+	header {
+		height: 100px;
+	}
+	.fa-bars{
+		font-size: 30px;
+	}
+	.subcategoryBOX {
+		margin-top: 200px;
+	}
+}
+
+@media (max-width: 600px) {
+	header {
+		height: 100px;
+	}
+	.subcategoryBOX {
+		font-size: 35px;
+		margin-top: 70px;
+		margin-bottom: 100px;
+	}
+	.subtitle {
+		padding-top: 30px;
+	}
+	.fa {
+		font-size: 20px;
+		margin-top: 45px;
+		margin-left: 20px;
+	}
+	.mail {
+		font-size: 10px;
+	}
+	#slideshow {
+		height: 300px;
+	}
+	.menu-items {
+		display: none;
 	}
 }
