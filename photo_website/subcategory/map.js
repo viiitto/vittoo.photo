@@ -36,6 +36,13 @@ function initMap() {
   const location35 = { lat: 36.576292, lng: 27.855744};
   const location36 = { lat: 20.252127, lng: 105.968446};
   const location37 = { lat: 36.403803, lng: 28.179750};
+  const location38 = { lat: -2.5781188011169434, lng: -43.033447265625};
+  const location39 = { lat: 69.9666046, lng: 23.2733282};
+  const location40 = { lat: -33.928992, lng: 18.417396};
+  const location41 = { lat: 25.5867279, lng: 34.1694641};
+  const location42 = { lat: -28.8166236, lng: 24.991639};
+  const location43 = { lat: -2.8986278, lng: -40.4506081};
+  const location44 = { lat: 50.77545928955078, lng: 0.15271849930286407};
 
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 3,
@@ -187,6 +194,34 @@ function initMap() {
   });
   const marker37 = new google.maps.Marker({
     position: location37,
+    map: map,
+  });
+  const marker38 = new google.maps.Marker({
+    position: location38,
+    map: map,
+  });
+  const marker39 = new google.maps.Marker({
+    position: location39,
+    map: map,
+  });
+  const marker40 = new google.maps.Marker({
+    position: location40,
+    map: map,
+  });
+  const marker41 = new google.maps.Marker({
+    position: location41,
+    map: map,
+  });
+  const marker42 = new google.maps.Marker({
+    position: location42,
+    map: map,
+  });
+  const marker43 = new google.maps.Marker({
+    position: location43,
+    map: map,
+  });
+  const marker44 = new google.maps.Marker({
+    position: location44,
     map: map,
   });
 }
