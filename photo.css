@@ -245,7 +245,7 @@ footer {
 
 @media (max-width: 600px) {
 	header {
-		height: 200px;
+		height: 100px;
 	}
 	.subcategoryBOX {
 		font-size: 35px;
@@ -270,9 +270,9 @@ footer {
 		display: none;
 	}
 	footer {
-		height: 150px;
+		height: 250px;
 	}
 	.mail {
-		margin-top: 100px;
+		margin-top: 200px;
 	}
 }

@@ -43,6 +43,7 @@ function initMap() {
   const location42 = { lat: -28.8166236, lng: 24.991639};
   const location43 = { lat: -2.8986278, lng: -40.4506081};
   const location44 = { lat: 50.77545928955078, lng: 0.15271849930286407};
+  const location45 = { lat: 45.93699732567588, lng: 7.107356778130556};
 
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 3,
@@ -222,6 +223,10 @@ function initMap() {
   });
   const marker44 = new google.maps.Marker({
     position: location44,
+    map: map,
+  });
+  const marker45 = new google.maps.Marker({
+    position: location45,
     map: map,
   });
 }
