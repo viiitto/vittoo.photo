@@ -187,8 +187,15 @@ footer {
 	.subtitle {
 		padding-top: 40px;
 	}
+	.collectionName {
+		font-family: Arial;
+		font-weight: bold;
+	}
 }
 @media (max-width: 593px) {
+	header {
+		height: 100px;
+	}
 	.menu-items {
 		font-size: 8px;
 		margin: 5px;
@@ -199,7 +206,7 @@ footer {
 	h1 {
 		font-size: 10px;
 		margin: 20px;
-		margin-top: 30px;
+		margin-top: 33px;
 	}
 	h2 {
 		display: none;

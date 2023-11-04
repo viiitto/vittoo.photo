@@ -239,6 +239,7 @@ footer {
 	}
 	.subcategoryBOX {
 		margin-top: 200px;
+		font-family: Arial;
 	}
 }
 
@@ -248,8 +249,8 @@ footer {
 	}
 	.subcategoryBOX {
 		font-size: 35px;
-		margin-top: 70px;
-		margin-bottom: 100px;
+		margin-top: 10px;
+		margin-bottom: 80px;
 	}
 	.subtitle {
 		padding-top: 30px;
@@ -267,5 +268,11 @@ footer {
 	}
 	.menu-items {
 		display: none;
+	}
+	footer {
+		height: 150px;
+	}
+	.mail {
+		margin-top: 100px;
 	}
 }
