@@ -245,12 +245,12 @@ footer {
 
 @media (max-width: 600px) {
 	header {
-		height: 100px;
+		height: 200px;
 	}
 	.subcategoryBOX {
 		font-size: 35px;
-		margin-top: 10px;
-		margin-bottom: 80px;
+		margin-top: 20px;
+		margin-bottom: 90px;
 	}
 	.subtitle {
 		padding-top: 30px;
